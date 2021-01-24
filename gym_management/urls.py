@@ -20,5 +20,4 @@ from gym.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('gym.urls')),
-    path('contact/', include('gym.urls')),
 ]

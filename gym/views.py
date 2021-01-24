@@ -5,3 +5,5 @@ def about(request):
     return render(request,'About.html')
 def contact(request):
     return render(request,'contact.html')
+def login(request):
+    return render(request,'login.html')
