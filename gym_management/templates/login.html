@@ -4,14 +4,17 @@
 
 <div class="container" style="margin-top:60px">
     <h2 class="text-center text-primary font-weight-bold">Admin Login</h2>
-        <form method="post">
-{% csrf_token %}
-<label><b>Admin Name</b></label>
-<inputtype= text name ="uname" class="form-control">
+    <form method="post">
+        {% csrf_token %}
+        <label><b>Admin Name</b></label>
+        <input type="text" name="uname" class="form-control">
 
-        </form>
+        <label><b>Password</b></label>
+        <input type="password" name="pwd" class="form-control">
+        <br>
+        <input type=submit value="login" class="form-control btn btn-primary" >
+    </form>
 </div>
 
 
 {% endblock %}
-
