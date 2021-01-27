@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+rink.hockeyapp.net	0	1	1575102836	31536000
+github.com	0	1	1609604906	31536000

@@ -1,0 +1,26 @@
+user
+1.  Subscription till date
+2.  in-out time for last 7 days
+3.  average time spend in last 30 days
+4.  average time spend on trademill in last 7 days
+5.  total time spend on trademill in last 7 days
+6.  total time spend on cycle in last 7 days
+7.  suggestions for prices of few health related products
+
+gym-owner
+1.  current number of subscribers
+2.  number of subscribers in last 6 months
+3.  hourly status of trademills
+4.  hourly status of cycles
+5.  hourly status of subscribers in facility
+
+
+
+users --> facebook selenium
+data generation --> random, fstrings
+web app --> django
+db --> mongodb / mssql
+data-manage-python --> pandas
+plots --> matplotlig, seaborn
+
+
